@@ -89,8 +89,8 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<username>${username}</username>
-						<password>${password}</password>
+						<username>sivasuryamulesoft</username>
+						<password>Manam401$58</password>
 						<muleVersion>4.4.0</muleVersion>
 						<properties>
 							<http.port>8081</http.port>
