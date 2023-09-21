@@ -18,7 +18,7 @@ pipeline {
      stage('Deployment') {
 
       steps {
-            echo "******* Munit test cases execution ********"
+            bat 'mvn clean deploy -DmuleDeploy'
       }
     }
 
