@@ -18,7 +18,7 @@ pipeline {
      stage('Deployment') {
 
       steps {
-            bat 'mvn -U -V -e -B -DSkipTests -PSandbox deploy -DmuleDeploy'
+            echo "******* Munit test cases execution ********"
       }
     }
 
