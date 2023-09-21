@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="test-demo-devops-jenkinFlow" doc:id="6fcabd5a-1788-4837-93f0-e80f5cb59bc4" >
 		<http:listener doc:name="Listener" doc:id="b08cfb52-e89e-4cb4-88c4-f8fb73d5c5cb" config-ref="HTTP_Listener_config" path="/test"/>
-		<logger level="INFO" doc:name="Logger" doc:id="0643d89e-9b56-4d1a-a530-a9c822e7e57a" message="welcome to jenkins"/>
+		<logger level="INFO" doc:name="Logger" doc:id="0643d89e-9b56-4d1a-a530-a9c822e7e57a" message="welcome to jenkins git polling"/>
 	</flow>
 </mule>
